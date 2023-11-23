@@ -1,0 +1,36 @@
+Instalar Navigation
+yarn add @react-navigation/native
+yarn add react-native-screens react-native-safe-area-context
+
+in App.tsx pegar en la primara linea
+yarn add react-native-gesture-handler
+import 'react-native-gesture-handle 
+Agregar el componente en el App.tsx
+<NavigationContainer>
+      
+</NavigationContainer>
+
+
+instalar el stack
+yarn add @react-navigation/stack
+
+instalar axios
+yarn add axios
+la version de axios no funciona por eso hay que instalar la 0.26.0
+
+
+Instalar libreria 
+yarn add react-native-snap-carousel@4.0.0-beta.6
+yarn add -D @types/react-native-snap-carousel
+
+Instalar IonicIcons
+yarn add react-native-vector-icons
+
+Add this lines on the second line of the file android/app/build.gradle
+project.ext.vectoricons = [
+    iconFontNames: [ 'IonIcons.ttf' ] // Name of the font files you want to copy
+]
+
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+
+yarn add -D @types/react-native-vector-icons
