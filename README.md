@@ -1,4 +1,4 @@
-# React Native Template
+# Movie It App
 
 ![Movie It](https://raw.githubusercontent.com/rafaroju33/movies-app-react-native/main/app_images/screen_shot_1.png)
 
